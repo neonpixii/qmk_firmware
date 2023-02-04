@@ -18,7 +18,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         {
             {KC_KB_VOLUME_DOWN, KC_MEDIA_PLAY_PAUSE, KC_KB_VOLUME_UP},
             {KC_UP, KC_DOWN, KC_KB_MUTE},
-            {QK_BOOTLOADER, KC_RIGHT, TO(0)},
+            {KC_LEFT, KC_RIGHT, TO(0)},
         },
 };
 
